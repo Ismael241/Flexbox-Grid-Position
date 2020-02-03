@@ -1,0 +1,53 @@
+
+.toto{
+font-size: 50px;
+text-align: center;
+margin-top: 80px;
+}
+/* Positionnement avec position*/
+.fixed {margin: auto;
+  position: fixed;
+  background-color:
+  blue;
+  width: 100%;
+  top: 10px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+  height: 70px;
+}
+
+/*Positionnement flexbox*/
+.container{
+        display:inline-flex;
+        border: 2px solid black;
+        justify-content: center;
+        width: 800px;
+        margin: 80px auto;
+}
+.container > div {
+  background-color: #f1f1f1;
+  width: 160px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+  .d1,.d2,.d3 {font-size:50px;
+}
+/*Positionnement avec Grid*/
+.grid-container {
+  display: grid;
+  grid-column-gap: 10px;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
